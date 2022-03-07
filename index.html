@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewpart" content="width-device-width, initial-scale=1.0">
+
+    <style>
+        .titulos {
+            background-color: darkgray;
+        }
+
+        .miniInput {
+            background-color: #A2CADF;
+            width: 50px;
+
+        }
+
+        .puesto {
+            background-color: #A2CADF;
+            width: 350px;
+            height: 50px;
+
+        }
+
+        .sueldo {
+            background-color: #A2CADF;
+            width: 200px;
+            height: 30px;
+
+        }
+
+        .datospersonales {
+            background-color: #A2CADF;
+            width: 200px;
+        }
+
+        .datosPeque {
+            background-color: #A2CADF;
+            width: 50px;
+        }
+
+        .datosPercaja {
+            padding: 10px;
+            padding-top: 0%;
+
+        }
+
+        .mediano {
+            background-color: #A2CADF;
+            height: 20px;
+            width: 500 px;
+        }
+
+        .largo {
+            background-color: #A2CADF;
+            height: 20px;
+            width: 650px;
+        }
+
+        .fondo {
+            background-color: #A2CADF;
+        }
+
+        BODY {
+            font-family: verdana;
+        }
+    </style>
+
+    </style>
+
+</head>
+
+<body bgcolor="white">
+
+    <table border="blue">
+
+        <tr>
+            <th align="center" colspan="8" class="titulos"><b>SOLICITUD DE EMPLEO</b></th>
+        </tr>
+
+        <tr>
+            <td rowspan="5" colspan="4">
+                <div align="center">
+                    <p>Puesto que solicita</p>
+                    <input type="text" name="" id="" style="text-align:center" class="puesto">
+                    <p align="center">Sea tan amable de llenar esta solicitud en forma manuscrita <br>
+                        NOTA: Toda la información aquí proporcionada será tratada con <br>
+                        confidencialmente</p>
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div align="center">
+                    <p align="center">Fecha</p>
+                    <input type="text" name="dia" id="dia" class="miniInput">|<input type="text" name="mes" id="mes"
+                        class="miniInput">|<input type="text" name="anio" id="anio" class="miniInput">
+
+                </div>
+
+
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <div align="center">
+                    <p>Sueldo mensual deseado</p>
+                    <input type="text" name="sueldomensual" id="sueldomensual" class="sueldo">
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div align="center">
+                    <p>Sueldo mensual Aprobado</p>
+                    <input type="text" name="sueldomensual" id="sueldomensual" class="sueldo">
+                </div>
+            </td>
+        </tr>
+        <td colspan="2">
+            <div align="center">
+                <p>Fecha de contratación</p>
+                <input type="text" name="dia" id="dia" class="miniInput">|<input type="text" name="mes" id="mes"
+                    class="miniInput">|<input type="text" name="anio" id="anio" class="miniInput">
+
+            </div>
+        </td>
+        </tr>
+
+
+
+        <tr>
+            <th colspan="8" class="titulos">Datos Personales</th>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <div align="center">
+                    <p>Apellido Paterno
+                        <input type="text" name="paterno" id="paterno" class="datospersonales">
+                        Apellido Materno
+                        <input type="text" name="materno" id="materno" class="datospersonales">
+                        Nombres
+                        <input type="text" name="nombres" id="nombres" class="datospersonales">
+                    </p>
+                </div>
+            </td>
+
+            <td colspan="2">
+                <div align="center">
+                    <p>Edad</p>
+                    <p> <input type="number" name="edad" id="edad" class="datosPeque"> años</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <div align="center">
+                    <p>Domicilio
+                        <input type="text" name="Domicilio" id="Domicilio" class="datospersonales">
+                        Colononia
+                        <input type="text" name="Colononia" id="Colononia" class="datospersonales">
+                        Código Postal
+                        <input type="text" name="CP" id="CP" class="datosPeque">
+                    </p>
+                </div>
+            </td>
+
+            <td colspan="1">
+                <div align="center">
+                    <p>Teléfono</p>
+                    <input type="tel" name="telefono" id="telefono" class="mediano">
+                </div>
+            </td>
+
+            <td colspan="2">
+                <div align="center">
+                    <p>Sexo</p>
+                    <p><input type="checkbox" name="femenino" id="femenino"> Femenino</p>
+                    <p><input type="checkbox" name="masculino" id="masculino"> Maculino</p>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="4">
+                <div align="center">
+                    <p> Ciudad,Estado
+                        <input type="text" name="ciudad" id="ciudad" class="datospersonales">
+                        Lugar de nacimiento
+                        <input type="text" name="Lnacimiento" id="Lnacimiento" class="datospersonales">
+                    </p>
+
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <p> Fecha de Nacimiento</p>
+                    <input type="date" name="fechaNacimiento" id="fechaNacimiento" class="mediano">
+                    <p></p>
+                </div>
+
+            </td>
+            <td>
+                <div align="center">
+                    <p>Nacionalidad</p>
+                    <input type="text" name="nacionalidad" id="nacionalidad" class="mediano">
+                    <p></p>
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <p>Vive con </p>
+                <input type="checkbox" name="sufamilia" id="sufamilia"> Sus padres
+
+                <input type="checkbox" name="sufamilia" id="sufamilia"> Su familia
+                <input type="checkbox" name="parientes" id="parientes"> Parientes
+                <input type="checkbox" name="solo" id="solo"> Solo
+            </td>
+            <td colspan="2">
+                <p>Estatura <input type="text" name="estatura" id="estatura" class="mediano"></p>
+            </td>
+            <td>
+                <p>Peso <input type="text" name="peso" id="peso" class="mediano"></p>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td colspan="3">
+                <p>Personas que dependen de usted</p>
+                <input type="checkbox" name="hijos" id="hijos"> Sus hijos
+                <input type="checkbox" name="Cónyugue" id="Cónyugue"> Cónyugue
+                <input type="checkbox" name="Padres" id="Padres"> Padres
+                <input type="checkbox" name="Otros" id="Otros"> Otros
+            </td>
+            <td colspan="4">
+                <p>Estado Civil <input type="text" name="estadoCivil" id="EstadoCivil" class="mediano">
+                    <input type="checkbox" name="soltero" id="soltero"> Soltero
+                    <input type="checkbox" name="Casado" id="Casado"> Casado
+                    <input type="checkbox" name="Otro" id="Otro"> Otro
+                </p>
+
+            </td>
+        </tr>
+        <tr>
+            <th colspan="10" class="titulos">Documentación</th>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <div>
+                    <p>
+                        Clave Única de registro de o población
+                    </p>
+                    <input type="text" name="CLAVE" id="CLAVE" class="largo">
+                </div>
+
+            </td>
+
+            <td colspan="4">
+                <P>AFORE</P>
+                <input type="text" name="AFORE" id="AFORE" class="largo">
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p> Reg. Fed. de Contribuyentes</p>
+                <input type="text" name="RegCon" id="RegCon" style=" background-color: #A2CADF;
+                width: 300px;">
+            </td>
+            <td colspan="2">
+                <p>Número de Segurdidad Social</p>
+                <input type="text" name="SC" id="SC" style=" background-color: #A2CADF;
+                width: 300px;">
+            </td>
+            <td colspan="3">
+                <p>Cartilla de Servicio Militar No. </p>
+                <input type="text" name="CMilitar" id="CMilitar" class="mediano">
+            </td>
+            <td colspan="2">
+                <p> No. de Pasaporte</p>
+                <input type="text" name="Pasaporte" id="Pasaporte" style=" background-color: #A2CADF;
+                width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p> Tiene licencia de manejo</p>
+                <input type="checkbox" name="LicenciaSi" id="LicenciaSi"> Si
+                <input type="checkbox" name="LicenciaNo" id="LicenciaNo"> No
+            </td>
+
+            <td colspan="3">
+                <p>Clase y número de licencia</p>
+                <input type="text" name="claseNoLic" id="claseNoLic" style=" background-color: #A2CADF;
+                width: 290px;">
+            </td>
+
+            <td colspan="3">
+                <p>
+                    Siendo extranjero que documentos le permiten trabjar en el pais
+                <p></p>
+                <input type="text" name="doctExt" id="doctExt" style=" background-color: #A2CADF;
+                    width: 500px;">
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="7" class="titulos">Estado de salud y Habitos Personales</th>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <p>¿Cómo considera su estado de salud actual?</p>
+                <input type="checkbox" name="SaludBueno" id="SaludBueno"> Bueno
+                <input type="checkbox" name="SaludRegular" id="SaludRegular"> Regular
+                <input type="checkbox" name="SaludMala" id="SaludMala"> Malo
+            </td>
+            <td colspan="4">
+                <p>¿Padece de alguna enfermedad crónica?</p>
+                <input type="checkbox" name="SiEnfermedad" id="SiEnfermedad"> Si
+                <input type="checkbox" name="NoEnfermedad" id="NoEnfermedad"> No
+                (Explique) <input type="text" name="expliqueEnfermedad" id="expliqueEnfermedad" style=" background-color: #A2CADF;
+                width: 300px;">
+
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <p>
+                    ¿Practica Ud. Algún Deporte?
+                </p>
+                <input type="text" name="Deporte" id="Deporte" style=" background-color: #A2CADF;
+                width: 460px;">
+            </td>
+
+            <td colspan="2">
+                <p>
+                    ¿Permance a algún Club Social o Deportivo
+                </p>
+                <input type="text" name="Club" id="Club" class="mediano">
+            </td>
+            <td colspan="3">
+                <p>
+                    ¿Cuál es su pasatiempo favorito
+                </p>
+                <input type="text" name="pasatiempo" id="pasatiempo" style=" background-color: #A2CADF;
+                width: 550px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="7">
+                <p> ¿Cuál es su meta en la vida?</p>
+                <input type="text" name="meta" id="meta" style=" background-color: #A2CADF;
+                width: 1320px;">
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="7" class="titulos">Datos Familiares</th>
+        </tr>
+
+        <tr>
+            <td colspan="1">
+                <p>Nombre</p>
+            </td>
+            <td colspan="1" style="width: 20px ;">
+                <p>Vive</p>
+            </td>
+            <td colspan="1">
+                <p>Fin</p>
+            </td>
+            <td colspan="3">
+                <p>Domicilio</p>
+            </td>
+            <td colspan="2">
+                <p>Ocupación</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="1">
+                <p>Padre</p>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 40px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 40px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="3">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 300px; height: 40px;">
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="1">
+                <p> Madre </p>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 40px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 40px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="3">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 300px; height: 40px; ">
+                </div>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td colspan="1">
+                <p> Esposa(o)</p>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 40px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 40px; height: 40px;" height: 40px;>
+                </div>
+            </td>
+            <td colspan="3">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 300px; height: 40px;">
+                </div>
+
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td colspan="7">
+                <p>Nombres y edades de los hijos</p>
+                <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 1320px;">
+            </td>
+
+        </tr>
+        <tr>
+            <th colspan="7" class="titulos">Escolaridad</th>
+        </tr>
+        <tr>
+            <td colspan="1">
+                <p>Nombre</p>
+            </td>
+            <td colspan="2">
+                <div>
+                    <p>Dirección</p>
+                </div>
+
+            </td>
+            <td>
+                <p>De</p>
+            </td>
+            <td>
+                <p>A</p>
+            </td>
+            <td>
+                <p>Años</p>
+            </td>
+            <td colspan="2">
+                <p>Titulo Recibido</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="1">
+                <p>Primaria</p>
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px;">
+                </div>
+                </td">
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 150px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="1">
+                <p>Secundaria o Prevocacional</p>
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px;">
+                </div>
+                </td">
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 150px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1">
+                <p>Preparatoria o Vocacional</p>
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px;">
+                </div>
+                </td">
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 150px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1">
+                <p>Profesional</p>
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px;">
+                </div>
+                </td">
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 150px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1">
+                <p>Comercial u Otras</p>
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px;">
+                </div>
+                </td">
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="1">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 150px; height: 40px;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 300px; height: 40px;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="8">
+                <p>Estudios que esta efectuando en la actualidad</p>
+                <p>
+                    Escuela
+                    <input type="text" name="" id="" class="mediano">
+                    Horario
+                    <input type="text" name="" id="" class="mediano">
+                    Curso
+                    <input type="text" name="" id="" class="mediano">
+                    o Carrera Grado
+                    <input type="text" name="" id="" class="mediano">
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="8" class="titulos">Conocimientos Generales</th>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <p>
+                    Que idioma habla (Nivel 50%,75%,100%)
+                </p>
+                <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 650px; height: 20px;">
+            </td>
+            <td colspan="4">
+                <p>
+                    Funciones de oficina que domina
+                </p>
+                <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 650px; height: 20px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <p> Maquina de oficina o taller que sepa manejar
+                </p>
+                <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 650px; height: 20px;">
+            </td>
+
+            <td colspan="4">
+                <p>
+                    Software que conoce
+                </p>
+                <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 650px; height: 20px;">
+            </td>
+
+
+        </tr>
+        <tr>
+            <td colspan="8">
+                <p>
+                    Otros trabajos o funciones que domina
+                </p>
+                <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 1315px; height: 20px;">
+        </tr>
+
+        <tr>
+            <th colspan="8" class="titulos">Empleo Actual y Anteriores</th>
+        </tr>
+        <tr>
+            <td colspan="1">
+                <p>Concepto</p>
+            </td>
+            <td colspan="1">
+                <p>Actual o último</p>
+            </td>
+            <td colspan="2">
+                <p>Anterior</p>
+            </td>
+            <td colspan="2">
+                <p>Anterior</p>
+            </td>
+            <td colspan="2">
+                <p>Anterior</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Tiempo que presto sus servicios</p>
+            </td>
+            <td colspan="1">
+                <p align="center">De &nbsp; &nbsp; </p>
+                <p align="center"> <input type="date" name="" id="" style=" background-color: #A2CADF;
+                width: 150px; height: 20px;">A<input type="date" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 20px;"></p>
+
+            </td>
+            <td colspan="2">
+                <p align="center">De &nbsp; &nbsp; A</p>
+
+                <p align="center"> <input type="date" name="" id="" style=" background-color: #A2CADF;
+                  width: 80px; height: 20px;"> <input type="date" name="" id="" style=" background-color: #A2CADF;
+                          width: 100px; height: 20px;"></p>
+            </td>
+            <td colspan="2">
+                <p align="center">De &nbsp; &nbsp; A</p>
+                <p align="center"> <input type="date" name="" id="" style=" background-color: #A2CADF;
+                  width: 80px; height: 20px;"> <input type="date" name="" id="" style=" background-color: #A2CADF;
+                          width: 100px; height: 20px;"></p>
+            </td>
+            <td colspan="2">
+                <p align="center">De &nbsp; &nbsp; A</p>
+                <p align="center"> <input type="date" name="" id="" style=" background-color: #A2CADF;
+                width: 80px; height: 20px;"> <input type="date" name="" id="" style=" background-color: #A2CADF;
+                        width: 100px; height: 20px;"></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1">Nombre de la compañía</td>
+            <td colspan="1">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1">Dirección</td>
+            <td colspan="1">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1">Teléfono</td>
+            <td colspan="1">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1">Puesto desempeñado</td>
+            <td colspan="1">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1">Sueldo mensual</td>
+            <td colspan="1">
+                <p align="center">Inicio &nbsp; &nbsp; Final</p>
+                <p align="center"> <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 40px; height: 20px;"> <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 40px; height: 20px;"></p>
+            </td>
+            <td colspan="2">
+                <p></p>
+                <p align="center"> <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 20px;"> <input type="text" name="" id="" style=" background-color: #A2CADF;
+                            width: 80px; height: 20px;"></p>
+            </td>
+            <td colspan="2">
+                <p></p>
+                <p align="center"> <input type="text" name="" id="" style=" background-color: #A2CADF;
+                width: 80px; height: 20px;"> <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 80px; height: 20px;"></p>
+            </td>
+            <td>
+                <p></p>
+                <p align="center"> <input type="text" name="" id="" style=" background-color: #A2CADF;
+                            width: 80px; height: 20px;"> <input type="text" name="" id="" style=" background-color: #A2CADF;
+                                    width: 80px; height: 20px;"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Motivo de separación</td>
+            <td colspan="1">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+
+        </tr>
+        <tr>
+            <td>Nombre de su jefe directo</td>
+            <td colspan="1">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Puesto de jefe directo</td>
+            <td colspan="1">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                    width: 80px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Podemos solicitar informes de usted:</p>
+                <p><input type="checkbox" name="" id="">Si <br>
+                    <input type="checkbox" name="" id="">No (Razones)
+                </p>
+            </td>
+            <td colspan="7">
+                <p>Comentarios de sus jefes</p>
+                <input type="text " style=" background-color: #A2CADF;
+                width: 970px; height: 40px; border: 0;">
+            </td>
+        </tr>
+        <tr>
+            <th colspan="8" class=" titulos"> Referencias Personales (Favor de no incluir a jefes anteriores</th>
+        </tr>
+        <tr>
+            <td colspan="1"> Nombre</td>
+            <td colspan="2">Domicilio</td>
+            <td colspan="2">Teléfono</td>
+            <td colspan="1"> Ocupación</td>
+            <td colspan="1">Tiempo de Concentre</td>
+        </tr>
+
+        <tr>
+            <td colspan="1">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                            width: 150px; height: 40px; border: 0;">
+                </div>
+
+            </td>
+            <td colspan="2">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="1">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+
+            </td>
+            <td colspan="1">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="1">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+
+            </td>
+            <td colspan="1">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="1">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="2">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+            </td>
+            <td colspan="1">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+
+            </td>
+            <td colspan="1">
+
+                <div align="center" class="fondo">
+                    <input type="text" name="" id="" style=" background-color: #A2CADF;
+                        width: 150px; height: 40px; border: 0;">
+                </div>
+
+            </td>
+
+        <tr>
+            <th colspan="3" class="titulos">Datos Generales</th>
+            <th colspan="4" class="titulos">Datos económicos</th>
+        </tr>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p>¿Comó supo de este empleo?</p>
+                <p><input type="checkbox" name="" id=""> Anuncio <input type="checkbox" name="" id=""> Otro
+                    medio(anótelo) <input type="text" name="" id="" class="mediano"></p>
+            </td>
+            <td colspan="4">
+                <p>¿Tiene usted otros ingreso? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Importe mensual
+                </p>
+                <p><input type="checkbox" name="" id=""> No <input type="checkbox" name="" id=""> Si &nbsp; Describalos
+                    <input type="text" name="" id="" class="mediano" style="width: 250px;"> $ <input type="text" name=""
+                        id="" class="mediano" style="width: 150px;"> </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p>¿Tiene parientes trabajando en esta empresa?</p>
+                <p><input type="checkbox" name="" id=""> Si <input type="checkbox" name="" id=""> No
+                    (Nómbrelos) <input type="text" name="" id="" class="mediano"></p>
+            </td>
+            <td colspan="4">
+                <p> Su cónyuge trabaja? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Percepción mensual</p>
+
+                <input type="checkbox" name="" id=""> Si <input type="checkbox" name="" id=""> No &nbsp; (¿Dónde?)
+                <input type="text" name="" id="" class="mediano" style="width: 260px;"> $ <input type="text" name=""
+                    id="" class="mediano" style="width: 150px;">
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p>¿Ha estado afianzado?</p>
+                <p><input type="checkbox" name="" id=""> Si <input type="checkbox" name="" id=""> No
+                    (Nombre de Cía) <input type="text" name="" id="" class="mediano"></p>
+
+            </td>
+            <td colspan="4">
+                <p>
+                    ¿Vive en casa propia?&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                    Valor Aproximado:
+                </p>
+                <input type="checkbox" name="" id=""> Si <input type="checkbox" name="" id=""> No &nbsp; <input
+                    type="text" name="" id="" class="mediano" style="width: 350px;"> $ <input type="text" name="" id=""
+                    class="mediano" style="width: 150px;">
+            </td>
+
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p>¿Ha estado afiliado a algún sindicado? &nbsp; &nbsp; &nbsp; &nbsp; </p>
+                <input type="checkbox" name="" id=""> Si <input type="checkbox" name="" id=""> No &nbsp; ¿A cuál? <input
+                    type="text" name="" id="" class="mediano" style="width: 150px;">
+            </td>
+
+            </td>
+            <td colspan="4">
+                <p> ¿Paga renta? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Renta mensual</p>
+                <input type="checkbox" name="" id=""> Si <input type="checkbox" name="" id=""> No &nbsp; <input
+                    type="text" name="" id="" class="mediano" style="width: 350px;"> $ <input type="text" name="" id=""
+                    class="mediano" style="width: 150px;">
+            </td>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p> ¿Tiene seguro de vida?</p>
+                <input type="checkbox" name="" id=""> Si <input type="checkbox" name="" id=""> No &nbsp; (Nombre de la
+                Cía) <input type="text" name="" id="" class="mediano" style="width: 150px;">
+            </td>
+            </td>
+            <td colspan="4">
+                <p> ¿Tiene automóvil propio? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Modelo</p>
+                <input type="checkbox" name="" id=""> Si <input type="checkbox" name="" id=""> No &nbsp; Marca <input
+                    type="text" name="" id="" class="mediano" style="width: 300px;"> $ <input type="text" name="" id=""
+                    class="mediano" style="width: 150px;">
+            </td>
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p>¿Puede viajar?</p>
+                <input type="checkbox" name="" id=""> Si <input type="checkbox" name="" id=""> No &nbsp; (Razones)
+                <input type="text" name="" id="" class="mediano" style="width: 150px;">
+            </td>
+            </td>
+            <td colspan="4">
+                <p>¿Tiene deudas?&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Importe </p>
+                <input type="checkbox" name="" id=""> Si <input type="checkbox" name="" id=""> No &nbsp; Marca <input
+                    type="text" name="" id="" class="mediano" style="width: 300px;"> $ <input type="text" name="" id=""
+                    class="mediano" style="width: 150px;">
+            </td>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p>¿Esta dispuesto a cambiar de lugar de residencia</p>
+                <input type="checkbox" name="" id=""> Si <input type="checkbox" name="" id=""> No &nbsp; (¿Con quién?)
+                <input type="text" name="" id="" class="mediano" style="width: 150px;">
+            </td>
+            </td>
+            <td colspan="4">
+                <p>¿Cuánto abona mensualmente?</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p>Fecha en que podría presentarse a trabajar</p>
+                <input type="text" name="" id="" style="width: 600px;" class="fondo">
+            </td>
+            <td colspan="4">
+                <p>
+                    ¿A cuánto ascienden sus gastos mensuales?
+                </p>
+                <input type="text" name="" id="" style="width: 600px;" class="fondo">
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="3" class="titulos">Comentarios de Entrevistador y Firma</th>
+            <td colspan="4" rowspan="2"><p align="center">Hago constar que mis respuetas son verdaderas</p>
+                <p align="center">_______________________________________________________ <br>
+                Firma del solicitante</p></td>
+            </td>
+         
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input type="text" name="" id="" style="width: 300px; ">
+            </td>
+            
+        </tr>
+        
+    </table>
+
+</body>
+
+
+</html>
